@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
     #框架名
-    spec.name         = "JAWorkBaseFramework"
+    spec.name         = "JAWorkBase"
     #当前版本（注意:当前版本，后续更新版本，需要修改此处，需和tag标签保持一致）
     spec.version      = "1.0.1"
     #简要描述，在pod search 时会显示该信息
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     #详细描述，内容比spec.summary要长
     spec.description  = "控制SDK,实用型基类方法"
     #页面链接
-    spec.homepage     = "https://github.com/JAEavn/WorkBaseByPod"
+    spec.homepage     = "https://github.com/JAEavn/JAWorkBase"
     #开源协议
     spec.license      = { :type => "MIT", :file => "LICENSE" }
     #作者
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
     #支持最低ios版本
     spec.platform     = :ios, "8.0"
     #源码git地址
-    spec.source       = { :git => "https://github.com/JAEavn/WorkBaseByPod.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/JAEavn/JAWorkBase.git", :tag => "#{spec.version}" }
 
     #源文件（可以包含.h和.m）
     #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
